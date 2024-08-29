@@ -146,13 +146,19 @@ button::-moz-focus-inner {
 .mfp-close-btn-in .mfp-close {
   color: #333; }
 
-.mfp-image-holder .mfp-close,
-.mfp-iframe-holder .mfp-close {
-  color: #FFF;
-  right: -6px;
-  text-align: right;
-  padding-right: 6px;
-  width: 100%; }
+  .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    color: #333;
+    right: 25px;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50px;
+    font-size: 50px;
+    position: fixed;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .mfp-counter {
   position: absolute;
@@ -250,7 +256,7 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
+  padding: 70px 0 40px;
   margin: 0 auto; }
 
 /* The shadow behind the image */
